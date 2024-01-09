@@ -1,0 +1,48 @@
+.nav-container{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__left{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    
+}
+.nav__left > h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav__right{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.nav__right > button{
+    padding: 10px 20px 10px 20px;
+
+    border-radius: 5px;;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#b1{
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+}
+
+#b2{
+    background-color: #4C5FD5;
+    color: white;
+    border: none;
+}
