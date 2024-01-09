@@ -1,0 +1,21 @@
+.topicStyle{
+    display: flex;
+   
+}
+.topic__logo{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.topic__bio{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.topic__bio > p{
+    white-space: wrap;
+}

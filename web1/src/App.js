@@ -1,6 +1,7 @@
 import Navbar from './Navbar'
 import './App.css';
 import SearchBar from './SearchBar';
+import TopicSection from './TopicSection';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
 
       <SearchBar />
       {/* Topic section */}
+
+      <TopicSection />
       {/* Footer */}
     </div>
   );

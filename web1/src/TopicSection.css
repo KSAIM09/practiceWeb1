@@ -1,0 +1,12 @@
+.topicSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 20px 40px 20px;
+    padding-top: 20px;
+   
+}
+.topic__left{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
